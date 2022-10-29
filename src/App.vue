@@ -1,26 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <ChatSocket msg="Welcome chat"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ChatSocket from './components/ChatSocket.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ChatSocket
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
